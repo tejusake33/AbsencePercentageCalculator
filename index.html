@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absence Percentage Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+     <div class="container">
+        <div class="card">
+            <form action="">
+                <div class="block">
+                    <p>Total Employees</p>
+                    <input id="employees" type="text" autofocus oninput="calc();"/>
+                </div>
+                <div class="block">
+                    <p>Total Workdays</p>
+                    <input id="workdays" type="text" oninput="calc();"/>
+                </div>
+                <div class="block">
+                    <p>Total Days Absent</p>
+                    <input id="absent" type="text" oninput="calc();"/>
+                </div>
+                 <div class="block">
+                    <p>Absenteeism Rate</p>
+                    <input type="number" id="rate">
+                    <span>%</span>
+                </div> 
+            </form>
+        </div>
+        <div class="card2"></div>
+    </div> 
+
+    <script src="main.js"></script>
+</body>
+</html>
