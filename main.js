@@ -7,8 +7,7 @@ function calc(){
     var totalDaysAbsent = parseInt(totalDaysAbsent,10);
 
     var multiplication = (totalemployees*totalWorkdays );
-    var absenceRate =(totalDaysAbsent /multiplication )* 100;
+    var absenceRate = (totalDaysAbsent/multiplication )*100;
 
-    document.getElementById("rate").value =absenceRate.toFixed(4);
-
+    document.getElementById("rate").value = absenceRate;
 }
